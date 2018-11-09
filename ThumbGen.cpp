@@ -86,7 +86,7 @@ forkAndConvert(const std::string& path) {
       FLAGS_convert.c_str(),
       "thumbgen-convert",
       "-resize",
-      "2500x2500>",
+      "4000x4000>",
       "-quality",
       "90",
       path.c_str(),
